@@ -1,0 +1,126 @@
+Body{Background-Color:#40407A;
+Color:#40407A;
+font-family: Verdana,Arial,sans-serif;
+margin:0}
+#wrapper{
+    background-color:#f5f5f5;
+    padding: 2em;
+}
+Header{Background-Color:#40407A;
+    color:#ffffff;
+    background-image: url("sunrise.jpg");
+    background-size: 100% 100%;
+margin-top: 50px;
+    font-size: 90%;
+min-height: 200px;
+}
+.fade-out {color:8f92b2 10s  }
+header a:link{color: #ffffff}
+a:visited{color: #ffffff}
+a:hover{color:#8f92b2}
+.home{height: 20vh;
+padding-top: 2em;
+padding-left: 10%;
+max-height: 300px}
+.content{height: 250px;
+padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;}
+* {box-sizing: border-box;}
+Nav{text-align: right;
+text-decoration: none;
+    background-color: white;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 0;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999;
+width: 100%;
+height:auto;
+}
+nav ul{list-style-type: none;}
+ul{marker: none;
+margin: 0;
+padding-right: 2em;
+font-size: 1.2em;}
+nav li{display: inline;
+padding-left: 2em;
+width: 30%}
+selector{padding-left: 0.5em;
+padding-right: 0.5em}
+nav a:link{Color:#3F2860}
+nav a:visited{color:#497777}
+nav a:hover{color:#A26100}
+
+#mathero{height: 300px;
+background-image: url("yogamat.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+display: none;
+padding-bottom: 1em;}
+#loungehero{height:300px;
+background-image: url("yogalounge.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+display:none;
+padding-bottom: 1dm;}
+h2{margin: 0;}
+#flow{display: block}
+a{text-decoration: none}
+Footer{text-align: center;
+font-size: small;
+font-style: italic;}
+li{font-size: 90%;}
+dd{font-size: 90%;
+clear: right}
+table{border-color: #40407A 1px;
+    margin-bottom: 1em;
+    max-width: 400px;
+    border-collapse: collapse;}
+td{padding: 0.5em;
+border: #40407A 1px;}
+tl{padding: 0.5em;
+    border: #40407A 1px;}
+tr:nth-of-type(background-color
+#d7e8e9)
+#table{margin: 1em;
+    font-weight: bold;
+    font-size: 120%;}
+form {display:flex;
+flex-flow: column nowrap;}
+input, datalist textarea {margin-bottom: 0.5em;}
+attrabute{grid-column: 2;
+grid-gap: 9em;
+display: block hero}
+
+@media screen and (min-width: 600px)
+{nav ui{justify-content: flex-end}
+    .container{ flex-wrap: nowrap }
+    section{padding-left: 2em;
+    padding-right: 2em;}
+    nav li{width: 7em}
+    flow{flex-direction: row}
+    element{grid: auto;
+        ;grid-gap: 1em;
+        grid-row: auto;
+        grid-column: 2;
+        width: 9em;}
+#mathero, #loungehero{display: block}
+}
+
+@media screen and (min-width: 1024px){
+    header{font-size: 120%}
+    nav{font-weight: bold}
+    .home{height: 50% 50vh;
+    padding-top: 5em;
+    padding-left: 8em;}
+    .content{height: 30% 30vh;
+    padding-top: 2em;
+    padding-left: 8em;}
+    #wrapper{margin: auto;
+    width:80%}
+
+}
